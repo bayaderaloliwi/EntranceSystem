@@ -19,10 +19,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".userprofile"
-            android:label="@string/title_activity_main2"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".Register"
             android:label="@string/title_activity_register"
             android:theme="@style/AppTheme.NoActionBar"></activity>
