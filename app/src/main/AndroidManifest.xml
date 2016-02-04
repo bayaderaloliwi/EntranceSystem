@@ -29,6 +29,10 @@
         <activity
             android:name=".invited_visitors"
             android:label="@string/title_activity_invited_visitors"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".register_output"
+            android:label="@string/title_activity_register_output"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
