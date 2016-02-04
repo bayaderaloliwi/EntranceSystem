@@ -19,11 +19,11 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="An email has been sent                         please check your mailbox"
         android:id="@+id/textView13"
-        android:layout_marginTop="117dp"
+        android:layout_marginTop="134dp"
         android:textColor="#999999"
         android:textAlignment="center"
         android:textSize="22dp"
         android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>
