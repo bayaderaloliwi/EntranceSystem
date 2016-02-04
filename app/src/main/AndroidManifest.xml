@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".homeprofile"
+            android:name=".homepage"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -29,6 +29,10 @@
         <activity
             android:name=".invited_visitors"
             android:label="@string/title_activity_invited_visitors"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Driver"
+            android:label="@string/title_activity_driver"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
