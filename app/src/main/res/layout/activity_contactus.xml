@@ -18,6 +18,11 @@
 
     <include layout="@layout/content_contactus" />
 
-
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#f8c256"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
 
 </android.support.design.widget.CoordinatorLayout>
