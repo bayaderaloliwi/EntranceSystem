@@ -16,7 +16,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/Userimage"
+        android:id="@+id/Driverimage"
         android:layout_marginTop="37dp"
         android:background="@drawable/profilepic"
         android:layout_alignParentTop="true"
@@ -44,7 +44,7 @@
         android:textSize="20dp"
 
         android:textColor="#f8c258"
-        android:layout_below="@+id/Userimage"
+        android:layout_below="@+id/Driverimage"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginLeft="29dp"
@@ -90,7 +90,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/Name"
+        android:id="@+id/DriverName"
         android:text="***"
         android:layout_alignBottom="@+id/textView3"
         android:layout_toLeftOf="@+id/Username"
@@ -99,7 +99,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/UserIDno"
+        android:id="@+id/DriverIDno"
         android:text="***"
         android:layout_alignBottom="@+id/textView2"
         android:layout_toLeftOf="@+id/Username"
@@ -108,7 +108,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/UserEmail"
+        android:id="@+id/Dmail"
         android:text="***"
         android:layout_centerVertical="true"
         android:layout_toLeftOf="@+id/Username"
@@ -117,7 +117,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/Address"
+        android:id="@+id/DriAddress"
         android:text="***"
         android:layout_alignBottom="@+id/textView4"
         android:layout_toRightOf="@+id/Userimage"
@@ -126,38 +126,13 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/Username"
+        android:id="@+id/Belowdname"
         android:layout_below="@+id/textView"
         android:layout_alignLeft="@+id/textView"
         android:layout_alignStart="@+id/textView"
         android:text="***" />
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/Viewbutton"
-        android:layout_marginTop="42dp"
-        android:background="@drawable/button"
-        android:layout_below="@+id/UserEmail"
-        android:layout_alignLeft="@+id/textView4"
-        android:layout_alignStart="@+id/textView4"
-        android:layout_alignRight="@+id/textView"
-        android:layout_alignEnd="@+id/textView"
-        android:clickable="true" />
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/Updatebutton"
-        android:background="@drawable/button2"
-        android:clickable="true"
-
-        android:layout_marginTop="42dp"
-        android:layout_below="@+id/Viewbutton"
-        android:layout_alignLeft="@+id/textView5"
-        android:layout_alignStart="@+id/textView5"
-        android:layout_alignRight="@+id/Viewbutton"
-        android:layout_alignEnd="@+id/Viewbutton" />
 
 
 </RelativeLayout>
