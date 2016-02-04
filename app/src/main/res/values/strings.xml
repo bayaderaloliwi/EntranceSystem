@@ -10,7 +10,6 @@
         <item>husband</item>
 
     </string-array>
-    <string name="title_activity_forgetpass">forgetpass</string>
-    <string name="title_activity_forgetpassoutput">forgetpassoutput</string>
+    <string name="title_activity_invited_visitors">invited_visitors</string>
 
 </resources>
