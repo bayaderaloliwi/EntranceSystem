@@ -27,13 +27,13 @@
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".invited_visitors"
-            android:label="@string/title_activity_invited_visitors"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".register_output"
             android:label="@string/title_activity_register_output"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".invite_visitors"
+            android:label="@string/title_activity_invite_visitors"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

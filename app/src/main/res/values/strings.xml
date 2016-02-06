@@ -6,5 +6,7 @@
 
     <string name="title_activity_invited_visitors">invited_visitors</string>
     <string name="title_activity_register_output">register_output</string>
+    <string name="next">next</string>
+    <string name="title_activity_invite_visitors">invite_visitors</string>
 
 </resources>
