@@ -13,6 +13,9 @@
     android:background="#fef5c7"
     tools:showIn="@layout/activity_register">
 
+
+
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -211,7 +214,14 @@
         android:layout_below="@+id/textView10"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
-
+<RadioGroup
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/radioGroup"
+    android:orientation="horizontal"
+    android:layout_below="@+id/textView10"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true">
     <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -236,7 +246,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Child"
-        android:id="@+id/radioButton"
+        android:id="@+id/r_child"
         android:checked="false"
         android:layout_alignTop="@+id/r_parent"
         android:layout_toRightOf="@+id/r_spouse"
@@ -251,7 +261,7 @@
         android:layout_alignTop="@+id/radioButton"
         android:layout_toRightOf="@+id/radioButton"
         android:layout_toEndOf="@+id/radioButton" />
-
+</RadioGroup>
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -286,6 +296,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:checked="false" />
+
 
 
 </RelativeLayout>
