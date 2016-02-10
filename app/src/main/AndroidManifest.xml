@@ -33,6 +33,10 @@
         <activity
             android:name=".invite_visitors"
             android:label="@string/title_activity_invite_visitors"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Invitenewvisitor"
+            android:label="@string/title_activity_invitenewvisitor"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

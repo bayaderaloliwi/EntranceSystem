@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.bayaderaloliwi.entrancesystem.Invitenewvisitor"
+    tools:showIn="@layout/activity_invitenewvisitor"
+    android:background="#fef5c7">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous Inviter"
+        android:id="@+id/textview"
+        android:layout_alignParentTop="true"
+        android:textSize="17dp"
+        android:textAlignment="inherit" />
+
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:id="@+id/previousinviter"
+        android:background="#ffffff"
+        android:layout_below="@+id/textview"
+        android:layout_alignLeft="@+id/numberofinvites"
+        android:layout_alignStart="@+id/numberofinvites"
+        android:layout_alignRight="@+id/numberofinvites"
+        android:layout_alignEnd="@+id/numberofinvites"
+        android:inputType="none" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/previousinviter"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAlignment="inherit"
+        android:textSize="17dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number of invites"
+        android:id="@+id/textView14"
+        android:textAlignment="inherit"
+        android:textSize="17dp"
+        android:layout_below="@+id/editText8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/numberofinvites"
+        android:background="#ffffff"
+        android:layout_below="@+id/textView14"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:layout_alignRight="@+id/confirm1"
+        android:layout_alignEnd="@+id/confirm1"
+        android:layout_toRightOf="@+id/textview"
+        android:layout_toEndOf="@+id/textview" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:id="@+id/confirm1"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/numberofinvites"
+        android:layout_toRightOf="@+id/textview"
+        android:layout_toEndOf="@+id/textview" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="New invite"
+        android:id="@+id/textView15"
+        android:textSize="15dp"
+        android:layout_below="@+id/numberofinvites"
+        android:layout_alignLeft="@+id/textView16"
+        android:layout_alignStart="@+id/textView16"
+        android:layout_marginTop="67dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/textView16"
+        android:textSize="17dp"
+        android:layout_below="@+id/textView15"
+        android:layout_alignRight="@+id/textView17"
+        android:layout_alignEnd="@+id/textView17"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/Name"
+        android:background="#ffffff"
+        android:layout_below="@+id/textView16"
+        android:layout_toRightOf="@+id/textView15"
+        android:layout_alignRight="@+id/numberofinvites"
+        android:layout_alignEnd="@+id/numberofinvites" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:id="@+id/textView17"
+        android:textSize="17dp"
+        android:layout_below="@+id/Name"
+        android:layout_toLeftOf="@+id/numberofinvites"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/Email"
+        android:background="#ffffff"
+        android:layout_below="@+id/textView17"
+        android:layout_alignLeft="@+id/Name"
+        android:layout_alignStart="@+id/Name"
+        android:layout_alignRight="@+id/Name"
+        android:layout_alignEnd="@+id/Name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:id="@+id/textView18"
+        android:layout_below="@+id/Email"
+        android:textSize="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/Date"
+        android:layout_below="@+id/textView18"
+        android:background="#ffffff"
+        android:layout_alignLeft="@+id/Email"
+        android:layout_alignStart="@+id/Email"
+        android:layout_alignRight="@+id/Email"
+        android:layout_alignEnd="@+id/Email" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/editText8"
+        android:background="#ffffff"
+        android:layout_below="@+id/textView12"
+        android:layout_alignRight="@+id/confirm2"
+        android:layout_alignEnd="@+id/confirm2"
+        android:layout_toRightOf="@+id/textView15"
+        android:layout_toEndOf="@+id/textView15" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number of Invites"
+        android:id="@+id/textView19"
+        android:layout_below="@+id/Date"
+        android:textSize="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/Numberofinvites"
+        android:background="#ffffff"
+        android:layout_below="@+id/textView19"
+        android:layout_alignRight="@+id/confirm1"
+        android:layout_alignEnd="@+id/confirm1"
+        android:layout_alignLeft="@+id/confirm1"
+        android:layout_alignStart="@+id/confirm1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:id="@+id/confirm2"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/Numberofinvites"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
