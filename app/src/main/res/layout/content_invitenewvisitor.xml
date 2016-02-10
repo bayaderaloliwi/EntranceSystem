@@ -28,11 +28,11 @@
         android:id="@+id/previousvisitor"
         android:background="#ffffff"
         android:layout_below="@+id/textview"
-        android:layout_alignLeft="@+id/numberofinvites"
-        android:layout_alignStart="@+id/numberofinvites"
         android:layout_alignRight="@+id/numberofinvites"
         android:layout_alignEnd="@+id/numberofinvites"
-        android:inputType="none" />
+        android:inputType="none"
+        android:layout_alignLeft="@+id/editText8"
+        android:layout_alignStart="@+id/editText8" />
 
     <TextView
         android:layout_width="wrap_content"
