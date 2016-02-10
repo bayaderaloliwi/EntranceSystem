@@ -16,7 +16,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Previous Inviter"
+        android:text="Previous Visitor"
         android:id="@+id/textview"
         android:layout_alignParentTop="true"
         android:textSize="17dp"
@@ -25,7 +25,7 @@
     <EditText
         android:layout_width="260dp"
         android:layout_height="30dp"
-        android:id="@+id/previousinviter"
+        android:id="@+id/previousvisitor"
         android:background="#ffffff"
         android:layout_below="@+id/textview"
         android:layout_alignLeft="@+id/numberofinvites"
@@ -39,7 +39,7 @@
         android:layout_height="wrap_content"
         android:text="Date"
         android:id="@+id/textView12"
-        android:layout_below="@+id/previousinviter"
+        android:layout_below="@+id/previousvisitor"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:textAlignment="inherit"
@@ -85,13 +85,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="New invite"
+        android:text="New Visitor"
         android:id="@+id/textView15"
         android:textSize="15dp"
-        android:layout_below="@+id/numberofinvites"
-        android:layout_alignLeft="@+id/textView16"
-        android:layout_alignStart="@+id/textView16"
-        android:layout_marginTop="67dp" />
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/confirm1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -208,5 +208,14 @@
         android:textColor="#ffffff"
         android:layout_below="@+id/Numberofinvites"
         android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="________________________________________________"
+        android:id="@+id/textView20"
+        android:layout_below="@+id/confirm1"
+        android:layout_centerHorizontal="true"
+        android:textColor="#f8c25753" />
 
 </RelativeLayout>
